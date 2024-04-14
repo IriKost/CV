@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  .bg{
+    border: 2px solid #bf9393;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.info img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text p {
+    font-size: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-text {
+    display: flex;
+    align-items: center;
+}
+
+.skills-list h6 {
+    margin: 0;
+    padding-left: 16px;
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 20px;
+    
+}
+
+.level {
+    margin: 16px 0 16px;
+    padding: 0;
+    height: 14px;
+    font-size: 0;
+    background-color: #ffffff;
+    border: 1px solid #ffe5e5;
+    border-radius: 8px;
+}
+  
+.level span {
+    display: block;
+    margin: 1px;
+    height: 12px;
+    background-color: #9d5379;
+    border-radius: 6px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.bg-green p {
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.github {
+    width: 100px;
+}
+
+.github:hover {
+    width: 150px;
+}
+
+.contact {
+    display: flex;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.contact img {
+    width: 50px;
+}
+
+.telegram {
+    margin-right: 20px;
+    padding-right: 10px;
+    
+}
+
+.contact img:hover {
+    width: 70px;
+}
+
+
+@media (max-width: 700px) {
+    .info {
+      text-align: center;
+      display: block;
+    }
+  }
